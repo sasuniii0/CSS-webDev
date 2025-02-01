@@ -3,8 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <title>CSS combinators</title>
+
+    <style>
+        h1{
+            background: aqua;
+        }
+        section>h1{
+            background: yellow;
+        }
+        section h1{
+            background: yellow;
+        }
+        h2+h3{
+            background: green;
+        }
+        h2~h3{
+            background: green;
+        }
+      /*
+        section>h1 eke tiynw kyla kynne section ek athule tiyna h1 wlata apply wenn kyna eka
+        section h1 kynne kisima parent section ekk blnne ntuw appy wenn kyna ekta
+        h2+h3 kynne h2 wlta passe eka laga h3 ekk tiynw nam ekata apply wenn kyla
+        h2~h3 kynne h2 wlta passe kothanaka hri h3 tiynw nam ekta apply wenna kyla
+        */
+    </style>
 </head>
 <body>
+    <h1>Hellowwwwwwwwwwww</h1>
+<section>
+    <h1>Hello World</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid aut, consectetur doloribus dolorum eos esse id incidunt, ipsam iure modi mollitia neque nisi nostrum quisquam, rerum sed temporibus voluptate.</p>
 
-</body>
+    <h2>Hello H2</h2>
+    <h3>Hello H3</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur blanditiis cupiditate delectus deleniti distinctio doloremque explicabo fugit, ipsa, iusto laudantium nihil nostrum optio quia sapiente temporibus, voluptas voluptatibus. Distinctio, voluptatem.</p>
+    <h3>Hello H3</h3>
+</section>
+    </body>
 </html>
