@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>attribute selector</title>
+
+    <style>
+        [name]{
+            background: white;
+        }
+        [name="name1"] {
+            color: red;
+        }
+        [href^="https"]{
+            background: yellow;
+        }
+        [href$="m"]{
+            color: white;
+            background: black;
+        }
+        [href*="ijse"]{
+            color: black;
+            background: blue;
+        }
+        [href~="oo"]{
+            background: orange;
+        }
+        p[name]{
+            color : red;
+        }
+    </style>
+</head>
+<body>
+    <a href = "http://ijse.lk" name = "ijse">IJSE </a>
+    <a href = "https://ijse.lk" >IJSE </a>
+    <a href = "www.googlesolutions.lk">IJSE</a>
+    <a href = "www.google.lk">IJSE</a>
+    <a href = "www.ijse.lk" >IJSE </a>
+    <a href = "https://ijse.com" >IJSE </a>
+    <a href = "www.ijse.solution" name = "ijse">IJSE </a>
+    <a href = "oo oo ohdhjshsx">IJSE</a>
+    <a href = "oobrgb oo ohdhjshsx">IJSE</a>
+    <a href = "bgbrgboo oo ohdhjshsx">IJSE</a>
+    <p name = "name1">Welcome to tech world</p>
+    <p>Welcome to tech world</p>
+
+</body>
+</html>
