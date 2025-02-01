@@ -3,8 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <title>pseudo element selector</title>
+
+    <style>
+        h1::before{
+            content:"❤️";
+        }
+        h1::after{
+            content:"❤️"
+        }
+        h2::first-letter{
+            color: orange;
+        }
+        p::first-line{
+            background: greenyellow;
+        }
+        p::selection{
+            background: aquamarine;
+            color: red;
+        }
+        ::marker{
+            content:"💡"
+        }
+        input::placeholder{
+            color: orange;
+        }
+        input::file-selector-button{
+            color:black;
+            background: aqua;
+        }
+        input::file-selector-button:hover{
+            color: green;
+        }
+    </style>
 </head>
 <body>
+    <h1>HELLO WORLD</h1>
 
+    <ol>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+    </ol>
+    <input tyoe ="text" placeholder="Enter your name">
+    <input type="file" >
+    <h2>Welcome to IJSE!</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. lorem
+        Accusamus accusantium corporis cumque deserunt facilis iure obcaecati perspiciatis porro quidem,
+        quod. Autem earum eius harum illum impedit numquam quos sed vel?Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit. Asperiores assumenda dignissimos ex inventore maiores odit quaerat veritatis vitae,
+        voluptatibus voluptatum. Cum, dicta earum eius laborum mollitia nobis non quod Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit. Aliquam animi at corporis dolore eaque ex fuga fugiat impedit ipsam itaque, laborum laudantium
+        minima minus provident quo recusandae sequi sit, tempore?Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Aspernatur ducimus est facere, illum impedit, ipsum laudantium maxime necessitatibus nemo, nesciunt odio placeat
+        porro recusandae ullam veritatis voluptates voluptatum? Accusantium, alias.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet architecto corporis dolores doloribus
+            laboriosam minima modi nulla numquam, pariatur perspiciatis quo recusandae repellat sit tempore.
+            Adipisci aliquid cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores doloribus eaque,
+            hic praesentium quos temporibus? Aliquam dolorum eaque, eius inventore laudantium maxime non placeat, porro
+            ratione repudiandae sint tempore? Facilis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium beatae
+            cumque dolores eos est et eum fugit in ipsum, iste, labore neque nisi quae quidem ratione rem repellendus ut?</p>
 </body>
 </html>
