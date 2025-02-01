@@ -16,8 +16,42 @@
     input:focus{
         background: yellow;
     }
-    li:first-child{
+    /*li:first-child{
         color: deeppink;
+    }
+    li:last-child{
+        color:cornflowerblue;
+    }
+    li:nth-child(n-2){
+        color:darkgoldenrod;
+    }
+    li:nth-child(3){
+        color:magenta;
+    }
+    li:nth-child(4){
+        color:greenyellow;
+    }*/
+
+    li:nth-child(odd){
+        background: greenyellow;
+    }
+    li:nth-child(even){
+        background: green;
+    }
+    li:nth-child(n+4){
+        background: darkgoldenrod;
+    }
+    li:nth-child(3n-1){
+        background: blue;
+    }
+    li:nth-child(3n+1){
+        background: hotpink;
+    }
+    li:nth-child(4n){
+        background: blueviolet;
+    }
+    li:nth-child(n+3){
+        background: black;
     }
   </style>
 </head>
@@ -38,6 +72,8 @@
         <li>HTML</li>
         <li>Javascript</li>
         <li>SQL</li>
+        <li>Pearl</li>
+        <li>.net</li>
     </ol>
 </body>
 </html>
