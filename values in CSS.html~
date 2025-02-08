@@ -48,11 +48,11 @@
             background: deepskyblue;
         }*/
        main{
-           font-size: 40px;
+           font-size: 1em;
 
        }
        div{
-           font-size: 1em;
+           font-size: 40px;
        }
 
 
