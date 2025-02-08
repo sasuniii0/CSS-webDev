@@ -13,6 +13,12 @@
       button{
         color :palegreen;/* 0,0,0,1 */
       }
+      section>.my-class{/* section -> 0,0,0,1 | > -> 0,0,0,0 | .my-class -> 0,0,1,0 */
+          color: blue;
+      }
+      .my-class{ /* 0,0,1,0*/
+          color : red;
+      }
   </style>
 
 </head>
@@ -21,5 +27,8 @@
   <button id = "my-id">
     click me!
   </button>
+    <section>
+        <p class = my-class>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto, autem consequuntur cupiditate distinctio ea, eos et expedita hic iure nam non quae quam quibusdam, repudiandae temporibus unde veniam vero!</p>
+    </section>
 </body>
 </html>
