@@ -47,12 +47,12 @@
             height: 100vh;
             background: deepskyblue;
         }*/
-       main{
-           font-size: 1em;
-
-       }
-       div{
+       /*main{
            font-size: 40px;
+
+       }*/
+       div{
+           font-size: 2rem;
        }
 
 
@@ -61,8 +61,7 @@
 <body>
 <main>
     <section>
-        <h1>Hello</h1>
-        <div></div>
+        <div>Hello</div>
     </section>
 </main>
 </body>
