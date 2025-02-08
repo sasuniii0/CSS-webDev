@@ -28,7 +28,7 @@
       /*border-radius: 10px;corner eken raum krnwa*/
       border-radius: 50px 1px;
       font-family: "Candara Light",serif;/*font family eka define krgnna pulwun*/
-      box-shadow: 10px 10px 10px 1px darkblue;/*box-shadow eka define krnnna pulwun
+      box-shadow: 10px 10px 5px 1px darkblue;/*box-shadow eka define krnnna pulwun
       1 weni px value walin pulun shadow eka right side ho left side eketa ynwa
       2 weni px eka nisa shadow eka udata pahalata ynwa
       3 weni px eka nisa shadow eka blur wenw
