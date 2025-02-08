@@ -72,8 +72,6 @@
            background: rgb(0, 251, 255);
            */
            background: rgba(0,251,255,0.3);
-
-           /*rgba wala a kynne opacity eka*/
            height: 100px;
            width: calc(100vw - 100px);
        }
