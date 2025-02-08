@@ -71,7 +71,12 @@
            /*
            background: rgb(0, 251, 255);
            */
+           /*
            background: rgba(0,251,255,0.3);
+           */
+            background: linear-gradient(to top, #00fbff, #ff00ff, #ff80e3);
+
+           /*rgba wala a kynne opacity eka*/
            height: 100px;
            width: calc(100vw - 100px);
        }
