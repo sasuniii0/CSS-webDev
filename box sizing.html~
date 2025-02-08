@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>box sizing</title>
+
+    <style>
+        div{
+            background: deepskyblue;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            padding: 5px;
+            border-radius: 30px 1px;
+        }
+        #box2{
+            border: 10px solid black;
+            box-sizing: border-box;
+            /*defauls value is content-box*/
+        }
+        p{
+            background: deepskyblue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium aspernatur assumenda atque eaque, illum incidunt ipsum labore, laboriosam magnam nemo nesciunt, nulla optio quia quis velit vitae voluptatem voluptatum.</p>
+    </div>
+    <div id = "box2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores dicta dolore, dolorum eius facere in magnam magni, nam nemo porro qui sunt voluptates. Autem doloremque ipsa officiis reprehenderit sed.</p>
+    </div>
+</body>
+</html>
