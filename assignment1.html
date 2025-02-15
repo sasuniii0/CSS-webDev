@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>assignment</title>
+
+    <link rel="stylesheet" href="lib/normalize.css">
+
+    <style>
+        section{
+            height: 500px;
+            width: 1000px;
+            border: black solid 3px;
+            position: relative;
+        }
+        .box{
+            width: 100px;
+            aspect-ratio: 1/1;
+            position: absolute;
+        }
+        div:nth-child(1){
+            background: red;
+            right: 0;
+            top: 0;
+        }
+        div:nth-child(2){
+            background: blue;
+            right: 0;
+            bottom: 0;
+        }
+        div:nth-child(3){
+            background: greenyellow;
+            top: 0;
+            left:0;
+        }
+        div:nth-child(4){
+            background: #ff80e3;
+            bottom: 0;
+            left :0;
+        }
+        div:nth-child(5){
+            background: #00fbff;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class ="box"></div>
+        <div class ="box"></div>
+        <div class ="box"></div>
+        <div class ="box"></div>
+        <div class ="box"></div>
+    </section>
+</body>
+</html>
