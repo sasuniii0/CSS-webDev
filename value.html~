@@ -4,13 +4,30 @@
     <meta charset="UTF-8">
     <title>values</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
     <!--bold underline italic modern css waladi use krnne nh-->
   <style>
+      @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
     p{
-      font-size: 18px;
-      text-align: center;
-      text-decoration: underline;/*underline,overline,line-through */
-        text-transform: lowercase;/*capitalize,uppercase,lowercase*/
+        font-size: 18px;
+      /*text-align: center;
+      text-decoration: underline;!*underline,overline,line-through *!
+      text-transform: capitalize;!*capitalize,uppercase,lowercase*!
+        font-style: italic; !*italic*!
+        font-weight: bold;!*bold*!*/
+        /*
+        font-family: "lucida handwriting","Brush Script MT","copperplate",sans-serif;
+        */
+        /*serif,sans-serif,cursive,monospace*/
+
+        font-family: Karla;
+        background:linear-gradient(to right, #00fbff, #ff00ff, #ff80e3);
+        color: transparent;
+        background-clip: text;
     }
   </style>
 </head>
