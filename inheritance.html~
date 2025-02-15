@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>inheritance</title>
+
+    <style>
+        section{
+            color: red;
+            border: #ff80e3 solid 2px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        hello world
+        <div>
+            hello world!
+        </div>
+    </section>
+</body>
+</html>
