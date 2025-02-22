@@ -115,8 +115,9 @@
             right: 0;
             top: -50px;
             margin: auto;
-            border-bottom-right-radius: 100%;
-            border-bottom-left-radius: 100%;
+            /*border-bottom-right-radius: 100%;
+            border-bottom-left-radius: 100%;*/
+            border-radius: 0 0 100% 100%;
         }
         body>div:nth-child(12) {
             background: white;
@@ -127,8 +128,10 @@
             left: 0;
             right: 0;
             margin: auto;
-            border-top-right-radius: 100%;
-            border-top-left-radius: 100%;
+            border-radius: 100% 100% 0 0;
+        }
+        body{
+            overflow: hidden;
         }
     </style>
 </head>
@@ -153,6 +156,8 @@
             <div></div>
             <div></div>
         </div>
+        <div></div>
+        <div></div>
         <div></div>
         <div></div>
         <div></div>
