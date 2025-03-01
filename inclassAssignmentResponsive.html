@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>responsive</title>
+
+    <link rel="stylesheet" href="lib/normalize.css">
+    <style>
+        header{
+            background: peachpuff;
+            position: relative;
+        }
+        header nav{
+            position: absolute;
+            right: 0;
+            top: 20px;
+            margin-right: 50px;
+        }
+        button{
+            background: orange;
+            position: absolute;
+            right: 0;
+            top: 20px;
+            margin-right: 50px;
+            display: none;
+        }
+        button:hover{
+            background: #f5fd0e;
+        }
+        @media all and (max-width: 500px) {
+            nav{
+                display: none;
+                background: #00fbff;
+            }
+            button{
+                display: flex;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div></div>
+        <div>
+            <img src="assets/download.png" alt="logo" width=200px>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Career</a>
+            <a href="#">Contact</a>
+        </nav>
+        <button>menu</button>
+    </header>
+</body>
+</html>

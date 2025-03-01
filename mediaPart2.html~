@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media part 2</title>
+    <link rel="stylesheet" href="lib/normalize.css">
+
+    <style>
+        @media all and (min-width: 500px) and (max-width: 1000px){
+            h1{
+                background: #FF4500;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello</h1>
+</body>
+</html>
