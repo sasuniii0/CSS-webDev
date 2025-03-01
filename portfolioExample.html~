@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>example</title>
-    <link rel="stylesheet" href="lib/normalize.css">
-    <link rel="stylesheet" href="lib/fontawesome/css/all.css">
 </head>
 <body>
     <main>
@@ -15,6 +13,6 @@
             <div></div>
         </header>
     </main>
-<script src="lib/fontawesome/js/all.js"></script>
+
 </body>
 </html>
