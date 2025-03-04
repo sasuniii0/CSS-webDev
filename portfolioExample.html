@@ -7,15 +7,88 @@
     <link rel="stylesheet" href="lib/fontawesome/css/all.css">
 
     <style>
+        header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background: #d7d7d7;
+        }
+        #icon{
+            display: none;
+        }
+        #hero{
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            background: lightblue;
+        }
+       #text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #name{
+            font-size: 2em;
+            font-weight: bold;
+        }
+        #service{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px;
+            background: lightgreen;
+        }
+        #service div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            background: white;
+            border-radius: 10px;
+        }
+        #service div button{
+            padding: 5px;
+            background: lightblue;
+            border: none;
+            border-radius: 5px;
+        }
+        #service div button:hover{
+            background: lightgreen;
+        }
+        footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            background: #d7d7d7;
+       }
+        @media all and (max-width: 500px) {
+            #icon{
+                display: flex;
+            }
+            #nav{
+                display: none;
+            }
+        }
+
     </style>
 </head>
 <body>
     <main>
         <!--header-->
         <header>
-            <i class="fa-solid fa-bars"  style="width: 50px"></i>
+            <i id="icon" class="fa-solid fa-bars"  style="width: 50px"></i>
             <div></div>
-            <nav>
+            <nav id="nav">
                 <a href="#">Home</a>
                 <a href="#">About</a>
                 <a href="#">Contact</a>
@@ -23,16 +96,19 @@
             </nav>
         </header>
     </main>
-    <main>
-        <section>
-            <div>
-                <p>Sasuni Wijerathne</p>
+    <main id="main">
+        <!--hero section-->
+        <section id="hero">
+            <div id="text">
+                <p id="name">Sasuni Wijerathne</p>
                 <p>Full Stack Developer</p>
                 <button>Explore</button>
+            </div>
+            <div>
                 <img src="assets/christmas.jpg" width="300">
             </div>
         </section>
-        <section>
+        <section id="service">
             <h3>Services</h3>
             <div>
                 <p>lorem</p>
