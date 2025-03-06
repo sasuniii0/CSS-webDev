@@ -104,6 +104,12 @@
             padding: 10px;
             background: #d7d7d7;
        }
+        @media all and (min-width: 500px) and (max-width: 800px) {
+            #service{
+                grid-template-columns: repeat(2,1fr);
+            }
+
+        }
         @media all and (max-width: 500px) {
             #icon{
                 display: flex;
