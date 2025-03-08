@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>transition</title>
+    <link rel="stylesheet" href="lib/normalize.css">
+    <style>
+        div{
+            width: 300px;
+            aspect-ratio: 1/1;
+            background: lightskyblue;
+            transition-duration: 500ms;
+            transition-delay: 2s;
+        }
+        div:hover{
+            background: deepskyblue;
+            width: 600px;
+            transform: rotate(180deg);
+        }
+        img{
+            width: 40px;
+            aspect-ratio: 1/1;
+            transition-duration: 500ms;
+        }
+        img:hover{
+            width: 60px;
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <img src="assets/monkey.jpeg" alt="java">
+</body>
+</html>
