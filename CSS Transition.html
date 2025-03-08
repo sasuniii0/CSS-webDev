@@ -6,31 +6,48 @@
     <link rel="stylesheet" href="lib/normalize.css">
     <style>
         div{
+            position: relative;
             width: 300px;
             height: 200px;
             background: lightskyblue;
+            /*
             transition-duration: 3000ms;
+            */
+            /*
             transition-timing-function: ease;
+            */
             /*slow start go start slow end*/
+            /*
             transition-property: background-color,width;
+            */
+            /*
+            transition: all 300ms;
+            */
+            transition: background-color 10s, width 5s;
         }
         div:hover{
             background: deepskyblue;
             width: 600px;
         }
         img{
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            position: absolute;
             width: 40px;
             aspect-ratio: 1/1;
             transition-duration: 500ms;
         }
         img:hover{
             width: 60px;
-            transform: scale(1.5);
+            transform: scale(1.1);
         }
     </style>
 </head>
 <body>
-    <div></div>
-    <img src="assets/monkey.jpeg" alt="java">
+    <div><img src="assets/monkey.jpeg" alt="java"></div>
+
 </body>
 </html>
