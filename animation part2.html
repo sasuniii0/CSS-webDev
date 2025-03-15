@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>animation part2</title>
+  <style>
+    div{
+      width: 300px;
+      aspect-ratio: 1/1;
+      border: black;
+      background-color: purple;
+      animation-name: my-colors;
+      animation-iteration-count: infinite;
+      animation-duration: 3s;
+
+    }
+    @keyframes my-colors {
+      0%{
+        background-color: #ff253a;
+      }
+      20%{
+        background-color: orange;
+      }
+      40%{
+        background-color: yellow;
+      }
+      60%{
+        background-color: lawngreen;
+      }
+      80%{
+        background-color: green;
+      }
+      100%{
+        background-color: blue;
+      }
+
+    }
+  </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

@@ -12,15 +12,27 @@
 
       animation-name: rotate;
       animation-duration: 3s;
+        animation-iteration-count: 2;
+        animation-direction: alternate-reverse;
+        transition-timing-function: ease-out;
+        /*
+        animation-delay: 5s;
+        */
     }
     @keyframes rotate {
       from{
+        /*
         transform: rotate(0deg);
+        */
       }
       to{
-        transform: rotate(360deg);
+          /*
+          transform: rotate(360deg);
+          */
           background-color: #00fbff;
+          /*
           width: 300px;
+          */
           margin-left: 1000px;
       }
     }
